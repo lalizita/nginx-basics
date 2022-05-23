@@ -1,0 +1,3 @@
+# NGINX BASICS (In development...)
+
+This repo is still in development mode to study Docker and Nginx. Doesn't has commands to run for a while...
