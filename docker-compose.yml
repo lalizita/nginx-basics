@@ -14,6 +14,8 @@ services:
   app_1:
     image: golang:1.16-alpine
     container_name: app_1
+    environment:
+      - APP="APP_1"
     build: app
     ports:
       - "8081:8081"
@@ -21,5 +23,7 @@ services:
     image: golang:1.16-alpine
     container_name: app_2
     build: app
+    environment:
+      - APP="APP_2"
     ports:
       - "8082:8081"
